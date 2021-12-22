@@ -1,0 +1,56 @@
+.ReviewCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 2%;
+  min-width: 35%;
+  min-height: 20%;
+  margin-right: 2%;
+}
+
+.ReviewInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+.name {
+  width: max-content;
+  margin: 2%;
+}
+.location {
+  margin: 2%;
+  font-size: 75%;
+}
+.stars {
+  width: max-content;
+  align-self: center;
+}
+@media only screen and (max-width: 500px) {
+  .name {
+  }
+  .info {
+    flex-direction: column;
+  }
+  .userinfo {
+    flex-direction: column;
+  }
+  .ReviewInfo {
+    flex-direction: column;
+  }
+  .Review {
+    font-size: 60%;
+  }
+}
