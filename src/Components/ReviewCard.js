@@ -11,7 +11,7 @@ function ReviewCard(props) {
     <div className="ReviewCard">
       <div className="ReviewInfo">
         <div className="info">
-          <img src={require(`../assets/profile${pic}.png`)} />
+          <img alt="profilepic" src={require(`../assets/profile${pic}.png`)} />
           <div className="userinfo">
             <p className="name">{name}</p>
             <p className="location">{location}</p>
