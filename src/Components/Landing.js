@@ -157,6 +157,7 @@ function Landing() {
         <div className="arrow">
           <img
             className="left"
+            alt="left"
             onClick={() => {
               executeScrollRight();
             }}
@@ -164,6 +165,7 @@ function Landing() {
           />
           <img
             className="right"
+            alt="right"
             onClick={() => {
               console.log(reviewRef);
 
